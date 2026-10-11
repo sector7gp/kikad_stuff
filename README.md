@@ -31,6 +31,7 @@ apuntan a `Sector7GP:<footprint>`.
 
 | Nombre | Símbolo | Footprint | Modelo 3D |
 |---|:-:|:-:|---|
+| Adafruit_MAX98357A (amp. I2S) | ✔ | ✔ | Adafruit_MAX98357A.step |
 | DFPlayer_Mini_DFR0299 | ✔ | ✔ | DFPlayer_Mini_DFR0299.step |
 | DFPlayer_Pro_DFR0768 | ✔ | ✔ | DFPlayer_Pro_DFR0768.step |
 | ESP32-S3-DevKitC-1_Narrow_Breadboard | ✔ | ✔ | YD-ESP32-S3.step (+ ESP32-S3-DevKitC-1_N8R8.step alternativo) |
@@ -55,3 +56,6 @@ apuntan a `Sector7GP:<footprint>`.
 - El símbolo `SW_MINI-SPDT-SW` fue convertido desde la librería legacy SnapEDA
   (`cad_sources/SW_MINI-SPDT-SW/MINI-SPDT-SW_legacy.lib`, CC BY-SA 4.0).
 - Algunos modelos 3D provienen de terceros (GrabCAD, SnapEDA, fabricantes); respetar sus licencias.
+- `Adafruit_MAX98357A` adaptado de [besi/kicad-adafruit-MAX98357](https://github.com/besi/kicad-adafruit-MAX98357);
+  modelo 3D de David Scambell ([GrabCAD](https://grabcad.com/library/max98357a-3w-i2s-amplifier-1)).
+  Los headers usan `${KICAD10_3DMODEL_DIR}` (librería estándar de KiCad).
